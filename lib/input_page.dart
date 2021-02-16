@@ -46,7 +46,7 @@ class _InputPageState extends State<InputPage> {
                     ),
                   ),
                 ),
-                Expanded(
+                Expanded(imer
                   child: ReusableCard(
                     onPress: () {
                       setState(() {
