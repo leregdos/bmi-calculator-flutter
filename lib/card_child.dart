@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'constants.dart';
 
 class CardChild extends StatelessWidget {
   final Icon iconGender;
@@ -14,11 +15,7 @@ class CardChild extends StatelessWidget {
         SizedBox(
           height: 15.0,
         ),
-        Text(textGender,
-            style: TextStyle(
-              fontSize: 18.0,
-              color: Color(0xFF8D8E98),
-            ))
+        Text(textGender, style: kLabelTextStyle)
       ],
     );
   }
